@@ -2461,7 +2461,7 @@ table.alt tbody tr td {
 }
 
 .wrapper.style2 input[type="submit"].special, .wrapper.style2 input[type="reset"].special, .wrapper.style2 input[type="button"].special, .wrapper.style2 button.special, .wrapper.style2 .button.special {
-	background-color:black;
+	background-color: black;
 	color: #ffffff !important;
 }
 
@@ -2508,8 +2508,7 @@ table.alt tbody tr td {
 
 .wrapper.style2 input[type="checkbox"]:focus+label:before, .wrapper.style2 input[type="radio"]:focus+label:before {
 	border-color: black;
-	box-shadow: 0 0 0 1px 
-	black;
+	box-shadow: 0 0 0 1px black;
 }
 
 .wrapper.style2 ::-webkit-input-placeholder {
@@ -3620,64 +3619,68 @@ body.is-mobile .banner>article {
 }
 
 /*solução site*/
-.img-site{
-	width:50%;
-	height:30%;
+
+.img-site {
+	width: 50%;
+	height: 30%;
 	margin-left: 25%;
 	margin-right: 25%;
-
 }
-.normalize-box{
+
+.normalize-box {
 	margin-top: 11.5%;
 }
 
 /*equipe*/
+
 .container-team {
-	        width: 100vw;
-	        height: 50vh;
-	        background: transparent;
-         display: flex;
-	        flex-direction: row;
-	        justify-content: center;
-			 align-items: center;
-			
-	     }
-	     .box-team {
-        width: 300px;
-	        height: 300px;
-			background: #fff;
-			margin-right: 1em;
-			margin-left:1em; 
-			margin-bottom: 1em;
-		 }
-		 .img-team{
-			border-radius: 50%;
-			width:50%;
-			height: 40%;
-			margin-left: 26%;
-			margin-right: 30%;
-			margin-top: 10%;
-		 }
-		 .name-teamate{
-		 	margin-top: 10px;
-			 text-align: center;
-			
-		 }
-		
-		 .box-team{
-			text-align: center;
-			
-		 }
-	
-		 .bx-team a{
-			font-size: 80%;
-			text-decoration: none;
-		 }
-		 .bx-team a:hover {
-			color: rgb(146, 146, 146)
-		}
-	
-	
+	width: 100vw;
+	height: 50vh;
+	background: transparent;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.box-team {
+	width: 300px;
+	height: 300px;
+	background: #fff;
+	margin-right: 1em;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+.img-team {
+	border-radius: 50%;
+	width: 50%;
+	height: 40%;
+	margin-left: 26%;
+	margin-right: 30%;
+	margin-top: 10%;
+}
+
+.name-teamate {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.box-team {
+	text-align: center;
+}
+
+.bx-team a {
+	font-size: 80%;
+	text-decoration: none;
+}
+
+.bx-team a:hover {
+	color: rgb(146, 146, 146)
+}
+
+
+
 /* Footer */
 
 #footer {
@@ -3685,7 +3688,6 @@ body.is-mobile .banner>article {
 	background: #000;
 	text-align: center;
 }
-
 
 #footer a {
 	color: rgba(255, 255, 255, 0.5);
